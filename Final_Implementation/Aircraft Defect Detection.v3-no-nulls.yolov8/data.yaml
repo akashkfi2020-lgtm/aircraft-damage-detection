@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Dent', 'Fastener Damage', 'Rupture']
+
+roboflow:
+  workspace: university-of-technology-sydney-21uto
+  project: aircraft-defect-detection
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/university-of-technology-sydney-21uto/aircraft-defect-detection/dataset/3

@@ -1,0 +1,14 @@
+
+path: /home/akash/Project Exhibition/YOLOv8 (New)/aircraft-skin-defects.v4-classification-isolated-5-classes-grayscale-prep.yolov8
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+
+names:
+  0: crack
+  1: dent
+  2: missing-head
+  3: paint-off
+  4: scratch

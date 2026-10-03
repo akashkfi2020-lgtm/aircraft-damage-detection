@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['crack', 'dent', 'missing-head', 'paint-off', 'scratch']
+
+roboflow:
+  workspace: thesis-project-equzz
+  project: aircraft-skin-defects
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thesis-project-equzz/aircraft-skin-defects/dataset/4

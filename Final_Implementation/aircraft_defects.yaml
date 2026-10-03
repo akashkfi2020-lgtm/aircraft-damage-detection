@@ -1,0 +1,8 @@
+
+path: /home/akash/Project Exhibition/Final_Implementation/Aircraft Defect Detection.v3-no-nulls.yolov8
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['Dent', 'Fastener Damage', 'Rupture']

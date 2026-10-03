@@ -1,0 +1,6 @@
+﻿**/myenv/
+**/runs/
+*.onnx
+
+*.pth
+*.pt
